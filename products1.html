@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+</head>
+<body>
+    <script>
+        var products = {
+            "prod1":{
+                "name": "Ice Spice T-shirt",
+                "description": "T-shirt with 'U thought I was feelin' U?' plastered on her face.",
+                "price": "999",
+                "categories": ["shirts", "popular"]
+            },
+            "prod2":{
+                "name": "Ripped Jeans",
+                "description": "Hand ripped black jeans, fitted with skull emblem.",
+                "price": "50",
+                "categories": ["pants", "on sale"]
+            },
+            "prod3":{
+                "name": "Juicy Sweatpants",
+                "description": "Tie-died sweatpants, cotton, comfty.",
+                "price": "300",
+                "categories": ["pants", "popular"]
+            },
+            "prod4":{
+                "name": "Leather Jacket",
+                "description": "Classic black and brown leather jacket",
+                "price": "150",
+                "categories": ["jacket", "outerwear"]
+            },
+            "prod5":{
+                "name": "Taylor Swifts Eras Sweatshirt",
+                "description": "Rare sweatshirt obtained at Taylor Swift's tour.",
+                "price": "2000",
+                "categories": ["limited edition", "popular"]
+            },
+            "prod6":{
+                "name": "Floral Dress",
+                "description": "Cute dress embroidered with roses, daises, and sunflowers.",
+                "price": "99",
+                "categories": ["dress", "outerwear"]
+            },
+            "prod7":{
+                "name": "Dog Collar",
+                "description": "Sexy dog collar with red and white design.",
+                "price": "150",
+                "categories": ["collar", "sexy"]
+            },
+            "prod8":{
+                "name": "Classic Fedora",
+                "description": "Classic black fedora with white stripe design.",
+                "price": "200",
+                "categories": ["hats", "outerwear"]
+            },
+            "prod9":{
+                "name": "Rainbow Wig",
+                "description": "Fun, colorful, wig designed for parties or events.",
+                "price": "50",
+                "categories": ["wigs", "popular"]
+            },
+            "prod10":{
+                "name": "Short Shorts",
+                "description": "Carefully designed shorts, perfect for athletic activities.",
+                "price": "100",
+                "categories": ["shorts", "athletic"]
+            }
+        }
+        string = JSON.stringify(products);
+        var parse = JSON.parse(string);
+        document.write(string);
+    </script>
+</body>
+</html>

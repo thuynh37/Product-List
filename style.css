@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+products{
+	background-color:#00be9f;
+	padding: 20px;
+}
+product{
+	background-color: #ffffff;
+	border-radius: 3px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px 10px 10px 20px;
+    max-width: 300px;
+}
+name{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 0px 30px 8px 0px;
+	font-variant: Arial;
+    font-style: italic;
+	color:#00be9f;
+}
+price::before{
+	content: "$";
+	color: #00be9f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+price{
+	display: inline-block;
+	color: #00be9f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+description{
+	display: block;
+	font-size: 20px;
+	font-style: italic;
+	color: #00be9f;
+	margin: 0px 0px 10px 0px;
+}
+category{
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	background-color: #80ffc4;
+	color: #00be9f;
+	padding: 5px;
+	border-radius: 5px;
+}

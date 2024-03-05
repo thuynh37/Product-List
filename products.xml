@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href = "style.css" ?>
+<products>
+    <product>
+        <name>Ice Spice T-shirt</name>
+        <description>T-shirt with "U thought I was feelin' U?" plastered on her face.</description>
+        <price>999</price>
+        <categories>
+            <category>shirts</category>
+            <category>popular</category>
+        </categories>
+    </product>
+    <product>
+        <name>Ripped Jeans</name>
+        <description>Hand ripped black jeans, fitted with skull emblem.</description>
+        <price>50</price>
+        <categories>
+            <category>pants</category>
+            <category>on sale</category>
+        </categories>
+    </product>
+    <product>
+        <name>Juicy Sweatpants</name>
+        <description>Tie-died sweatpants, cotton, comfty.</description>
+        <price>300</price>
+        <categories>
+            <category>pants</category>
+            <category>popular</category>
+        </categories>
+    </product>
+    <product>
+        <name>Leather Jacket</name>
+        <description>Classic black and brown leather jacket</description>
+        <price>150</price>
+        <categories>
+            <category>jacket</category>
+            <category>outerwear</category>
+        </categories>
+    </product>
+    <product>
+        <name>Taylor Swifts Eras Sweatshirt</name>
+        <description>Rare sweatshirt obtained at Taylor Swift's tour.</description>
+        <price>2000</price>
+        <categories>
+            <category>limited edition</category>
+            <category>popular</category>
+        </categories>
+    </product>
+    <product>
+        <name>Floral Dress</name>
+        <description>Cute dress embroidered with roses, daises, and sunflowers.</description>
+        <price>99</price>
+        <categories>
+            <category>dress</category>
+            <category>outerwear</category>
+        </categories>
+    </product>
+    <product>
+        <name>Dog Collar</name>
+        <description>Sexy dog collar with red and white design.</description>
+        <price>150</price>
+        <categories>
+            <category>collar</category>
+            <category>sexy</category>
+        </categories>
+    </product>
+    <product>
+        <name>Classic Fedora</name>
+        <description>Classic black fedora with white stripe design.</description>
+        <price>200</price>
+        <categories>
+            <category>hats</category>
+            <category>outerwear</category>
+        </categories>
+    </product>
+    <product>
+        <name>Rainbow Wig</name>
+        <description>Fun, colorful, wig designed for parties or events.</description>
+        <price>50</price>
+        <categories>
+            <category>wigs</category>
+            <category>popular</category>
+        </categories>
+    </product>
+    <product>
+        <name>Short Shorts</name>
+        <description>Carefully designed shorts, perfect for athletic activities.</description>
+        <price>100</price>
+        <categories>
+            <category>shorts</category>
+            <category>athletic</category>
+        </categories>
+    </product>
+</products>
